@@ -1,26 +1,27 @@
 # 🎨 Scribble
 
-Scribble is a modern web-based drawing application that lets users sketch, doodle, and express creativity on a digital canvas.  
-It’s designed with an intuitive UI, lightweight performance, and scalable architecture — making it perfect for personal notes, collaborative sketches, or just having fun.
+Scribble is a web-based drawing and doodling application built with **Django (backend)** and **HTML5 Canvas + JavaScript (frontend)**.  
+It allows users to create sketches, save them, and manage their drawings through a simple and clean interface.
 
 ---
 
 ## ✨ Features
 
-- 🖌️ **Freehand Drawing** – Smooth, real-time sketching with mouse or touch support  
-- 🎨 **Colors & Tools** – Choose different brush colors, sizes, and erasers  
-- 💾 **Save & Export** – Download your drawings as PNG/JPEG for offline use  
-- ♻️ **Undo / Redo** – Flexible editing with history tracking  
-- 🗑️ **Clear Canvas** – Start fresh anytime with a single click  
-- ⚡ **Responsive UI** – Works seamlessly on desktop, tablet, and mobile  
+- 🖌️ **Canvas Drawing** – Freehand sketching with mouse support  
+- 🎨 **Color & Brush Options** – Choose pen colors and sizes  
+- 💾 **Save Drawings** – Store sketches on the Django backend  
+- 📂 **Gallery View** – Retrieve and view saved drawings  
+- 🗑️ **Clear Canvas** – Reset canvas anytime  
+- 📱 **Responsive UI** – Works on desktop and mobile  
 
 ---
 
 ## 🚀 Tech Stack
 
-- **Frontend**: React.js, HTML5 Canvas API, TailwindCSS (or CSS Modules)  
-- **Backend (optional extension)**: Node.js + Express (for saving drawings)  
-- **Database (optional extension)**: MongoDB / PostgreSQL (for persistent storage & user accounts)  
+- **Backend**: Django  
+- **Frontend**: HTML5 Canvas, JavaScript, CSS  
+- **Database**: SQLite (default) / PostgreSQL / MySQL  
+- **Other**: Django Templates, Static Files  
 
 ---
 
@@ -35,10 +36,8 @@ Example placeholder:
 
 ## ⚙️ Installation
 
-Clone the repo and run locally:
+Clone the repo and set up locally:
 
 ```bash
 git clone https://github.com/Akash-S-G/Scribble.git
 cd Scribble
-npm install
-npm start
