@@ -41,3 +41,9 @@ Clone the repo and set up locally:
 ```bash
 git clone https://github.com/Akash-S-G/Scribble.git
 cd Scribble
+python -m venv venv
+source venv/bin/activate  # Linux / macOS
+venv\Scripts\activate     # Windows
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
